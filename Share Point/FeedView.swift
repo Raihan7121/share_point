@@ -154,11 +154,11 @@ struct FeedView: View {
             .updateData(["likes": post.likes + 1])
     }
 
-    // private func dislikePost(_ post: Post) {
-    //     FirebaseManager.shared.firestore.collection("ios_Posts")
-    //         .document(post.id)
-    //         .updateData(["dislikes": post.dislikes + 1])
-    // }
+    private func dislikePost(_ post: Post) {
+        FirebaseManager.shared.firestore.collection("ios_Posts")
+            .document(post.id)
+            .updateData(["dislikes": post.dislikes + 1])
+    }
 
     
 }

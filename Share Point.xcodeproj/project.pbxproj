@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		085113D32D2F045B00252B50 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 085113D22D2F045B00252B50 /* FirebaseAuth */; };
+		085113D52D2F046500252B50 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 085113D42D2F046500252B50 /* FirebaseFirestore */; };
+		085113D72D2F047000252B50 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 085113D62D2F047000252B50 /* FirebaseStorage */; };
+		085114472D2F14F100252B50 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 085114462D2F14F100252B50 /* SDWebImageSwiftUI */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0851138E2D2EF84800252B50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 085113752D2EF84600252B50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0851137C2D2EF84600252B50;
+			remoteInfo = "Share Point";
+		};
+		085113982D2EF84800252B50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 085113752D2EF84600252B50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0851137C2D2EF84600252B50;
+			remoteInfo = "Share Point";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0851137D2D2EF84600252B50 /* Share Point.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Share Point.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0851138D2D2EF84800252B50 /* Share PointTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Share PointTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		085113972D2EF84800252B50 /* Share PointUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Share PointUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		0851137F2D2EF84600252B50 /* Share Point */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Share Point";
+			sourceTree = "<group>";
+		};
+		085113902D2EF84800252B50 /* Share PointTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Share PointTests";
+			sourceTree = "<group>";
+		};
+		0851139A2D2EF84800252B50 /* Share PointUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Share PointUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0851137A2D2EF84600252B50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				085114472D2F14F100252B50 /* SDWebImageSwiftUI in Frameworks */,
+				085113D32D2F045B00252B50 /* FirebaseAuth in Frameworks */,
+				085113D52D2F046500252B50 /* FirebaseFirestore in Frameworks */,
+				085113D72D2F047000252B50 /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0851138A2D2EF84800252B50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		085113942D2EF84800252B50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		085113742D2EF84600252B50 = {
+			isa = PBXGroup;
+			children = (
+				0851137F2D2EF84600252B50 /* Share Point */,
+				085113902D2EF84800252B50 /* Share PointTests */,
+				0851139A2D2EF84800252B50 /* Share PointUITests */,
+				085113D12D2F045B00252B50 /* Frameworks */,
+				0851137E2D2EF84600252B50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0851137E2D2EF84600252B50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0851137D2D2EF84600252B50 /* Share Point.app */,
+				0851138D2D2EF84800252B50 /* Share PointTests.xctest */,
+				085113972D2EF84800252B50 /* Share PointUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		085113D12D2F045B00252B50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0851137C2D2EF84600252B50 /* Share Point */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 085113A12D2EF84800252B50 /* Build configuration list for PBXNativeTarget "Share Point" */;
+			buildPhases = (
+				085113792D2EF84600252B50 /* Sources */,
+				0851137A2D2EF84600252B50 /* Frameworks */,
+				0851137B2D2EF84600252B50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				0851137F2D2EF84600252B50 /* Share Point */,
+			);
+			name = "Share Point";
+			packageProductDependencies = (
+				085113D22D2F045B00252B50 /* FirebaseAuth */,
+				085113D42D2F046500252B50 /* FirebaseFirestore */,
+				085113D62D2F047000252B50 /* FirebaseStorage */,
+				085114462D2F14F100252B50 /* SDWebImageSwiftUI */,
+			);
+			productName = "Share Point";
+			productReference = 0851137D2D2EF84600252B50 /* Share Point.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0851138C2D2EF84800252B50 /* Share PointTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 085113A42D2EF84800252B50 /* Build configuration list for PBXNativeTarget "Share PointTests" */;
+			buildPhases = (
+				085113892D2EF84800252B50 /* Sources */,
+				0851138A2D2EF84800252B50 /* Frameworks */,
+				0851138B2D2EF84800252B50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0851138F2D2EF84800252B50 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				085113902D2EF84800252B50 /* Share PointTests */,
+			);
+			name = "Share PointTests";
+			packageProductDependencies = (
+			);
+			productName = "Share PointTests";
+			productReference = 0851138D2D2EF84800252B50 /* Share PointTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		085113962D2EF84800252B50 /* Share PointUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 085113A72D2EF84800252B50 /* Build configuration list for PBXNativeTarget "Share PointUITests" */;
+			buildPhases = (
+				085113932D2EF84800252B50 /* Sources */,
+				085113942D2EF84800252B50 /* Frameworks */,
+				085113952D2EF84800252B50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				085113992D2EF84800252B50 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0851139A2D2EF84800252B50 /* Share PointUITests */,
+			);
+			name = "Share PointUITests";
+			packageProductDependencies = (
+			);
+			productName = "Share PointUITests";
+			productReference = 085113972D2EF84800252B50 /* Share PointUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		085113752D2EF84600252B50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					0851137C2D2EF84600252B50 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					0851138C2D2EF84800252B50 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 0851137C2D2EF84600252B50;
+					};
+					085113962D2EF84800252B50 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 0851137C2D2EF84600252B50;
+					};
+				};
+			};
+			buildConfigurationList = 085113782D2EF84600252B50 /* Build configuration list for PBXProject "Share Point" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 085113742D2EF84600252B50;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				085113D02D2F041C00252B50 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				085114452D2F14C400252B50 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0851137E2D2EF84600252B50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0851137C2D2EF84600252B50 /* Share Point */,
+				0851138C2D2EF84800252B50 /* Share PointTests */,
+				085113962D2EF84800252B50 /* Share PointUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0851137B2D2EF84600252B50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0851138B2D2EF84800252B50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		085113952D2EF84800252B50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		085113792D2EF84600252B50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		085113892D2EF84800252B50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		085113932D2EF84800252B50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0851138F2D2EF84800252B50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0851137C2D2EF84600252B50 /* Share Point */;
+			targetProxy = 0851138E2D2EF84800252B50 /* PBXContainerItemProxy */;
+		};
+		085113992D2EF84800252B50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0851137C2D2EF84600252B50 /* Share Point */;
+			targetProxy = 085113982D2EF84800252B50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0851139F2D2EF84800252B50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		085113A02D2EF84800252B50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		085113A22D2EF84800252B50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Share Point/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arghy.Share-Point";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		085113A32D2EF84800252B50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Share Point/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arghy.Share-Point";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		085113A52D2EF84800252B50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arghy.Share-PointTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Share Point.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Share Point";
+			};
+			name = Debug;
+		};
+		085113A62D2EF84800252B50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arghy.Share-PointTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Share Point.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Share Point";
+			};
+			name = Release;
+		};
+		085113A82D2EF84800252B50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arghy.Share-PointUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Share Point";
+			};
+			name = Debug;
+		};
+		085113A92D2EF84800252B50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arghy.Share-PointUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Share Point";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		085113782D2EF84600252B50 /* Build configuration list for PBXProject "Share Point" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0851139F2D2EF84800252B50 /* Debug */,
+				085113A02D2EF84800252B50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		085113A12D2EF84800252B50 /* Build configuration list for PBXNativeTarget "Share Point" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				085113A22D2EF84800252B50 /* Debug */,
+				085113A32D2EF84800252B50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		085113A42D2EF84800252B50 /* Build configuration list for PBXNativeTarget "Share PointTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				085113A52D2EF84800252B50 /* Debug */,
+				085113A62D2EF84800252B50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		085113A72D2EF84800252B50 /* Build configuration list for PBXNativeTarget "Share PointUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				085113A82D2EF84800252B50 /* Debug */,
+				085113A92D2EF84800252B50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		085113D02D2F041C00252B50 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.6.0;
+			};
+		};
+		085114452D2F14C400252B50 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		085113D22D2F045B00252B50 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 085113D02D2F041C00252B50 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		085113D42D2F046500252B50 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 085113D02D2F041C00252B50 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		085113D62D2F047000252B50 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 085113D02D2F041C00252B50 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		085114462D2F14F100252B50 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 085114452D2F14C400252B50 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 085113752D2EF84600252B50 /* Project object */;
+}
